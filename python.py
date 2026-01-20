@@ -1,19 +1,13 @@
-import random
+num = int(input("Enter a number: "))
 
-secret = random.randint(1, 10)
-guess = int(input("Guess a number (1-10): "))
-
-if guess == secret:
-    print("Correct! You guessed the number!")
+if num % 2 == 0:
+    print(num, "is Even")
 else:
-    print(f"Wrong! The number was {secret}")
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("Sum =", a + b)
-print("Sub =", a - b)
-print("Mul =", a * b)
+    print(num, "is Odd")
 
-if b != 0:
-    print("Div =", a / b)
+if num > 0:
+    print("Number is Positive")
+elif num < 0:
+    print("Number is Negative")
 else:
-    print("Cannot divide by zero")
+    print("Number is Zero")
