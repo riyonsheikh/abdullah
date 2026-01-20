@@ -121,10 +121,15 @@ if num % 2 == 0:
     print(num, "is Even")
 else:
     print(num, "is Odd")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-if num > 0:
-    print("Number is Positive")
-elif num < 0:
-    print("Number is Negative")
+print("Sum =", a + b)
+print("Sub =", a - b)
+print("Mul =", a * b)
+
+if b != 0:
+    print("Div =", a / b)
 else:
-    print("Number is Zero")
+    print("Cannot divide by zero")
+
