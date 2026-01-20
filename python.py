@@ -183,12 +183,6 @@ print("Sum =", a + b)
 print("Sub =", a - b)
 print("Mul =", a * b)
 
-if b != 0:
-    print("Div =", a / b)
-else:
-    print("Cannot divide by zero")
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
 
 
 
